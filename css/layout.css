@@ -1,19 +1,16 @@
-body
+html,body
 {
     background-color:#ffffff;
     font-family: Arial;
     font-weight: bold;
     line-height: 16px;
-    
+    height: 100%;
 }
 
 .center {
   margin: 0 auto;
 }
 
-.no-underline:hover{
-  text-decoration: none ;
-}
 
 .top-header{
   height : 85px;
@@ -52,10 +49,11 @@ body
 
 }
 .content-wrapper {
-  height: 605px;   
+  min-height: 100%;   
   width: 960px;    
   margin-top: 30px;
   padding: 0 20px 0 20px;
+  margin-bottom: 30px;
 }
 
 .clearfix:after {
@@ -69,6 +67,7 @@ body
   width: 100%;
   background-color: #727272;
   clear: both;
+  position: relative;
 }
 
 .footer-outer{

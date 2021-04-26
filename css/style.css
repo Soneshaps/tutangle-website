@@ -4,6 +4,16 @@ a{
     color: #292929;
   }
   
+  
+.no-underline:hover{
+  text-decoration: none ;
+}
+
+.bottom-header-link:hover{
+  color: #51aebf
+  ;
+}
+
   .top-header-inner-left{
     height: 49px;
     float: left;
