@@ -3,6 +3,10 @@ a{
     text-decoration: none;
     color: #292929;
   }
+
+  .link:hover{
+    color: #51aebf;
+  }
   
   .top-header-inner-left{
     height: 49px;
