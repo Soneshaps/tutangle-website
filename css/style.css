@@ -252,7 +252,13 @@ a{
   
   .download-icon{
     float: right;
-    vertical-align: middle;
+    background: url('../images/downloadIcon.png');
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    line-height: -8px;
+    background-position: center;
+    cursor: pointer;
   }
   .download-icon-twoline{
     float: right;
@@ -260,8 +266,15 @@ a{
   }
   .burger-icon{
     float: right;
-    padding-top: 4px;
+    background: url('../images/burgermenu.png');
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    line-height: -8px;
+    background-position: center;
+    cursor: pointer;
   }
+
   .burger-icon-twoline{
     float: right;
     padding-top:12px;
@@ -283,8 +296,122 @@ a{
     width: 100%;
     height: 67px;
     margin-top: 10px;
-    background-image: url('../images/head-back.png');
   }
+
+  .entries-header-all-entries{
+    height: 100%;
+    width: 49.5%;
+    background-color: #f5f5f5;
+    float: left;
+    position: relative;
+  }
+  .entries-header-all-entries:before{
+    content: '';
+    background-image: url('../images/all-entries.png');
+    position: absolute;
+    height: 67px;
+    width: 30px;
+    background-repeat: no-repeat;  }
+
+    
+  .entries-header-suscribed{
+    height: 100%;
+    width: 49.5%;
+    background-color: #f5f5f5;
+    float: right;
+    position: relative;
+  }
+  .entries-header-suscribed:before{
+    content: '';
+    background-image: url('../images/suscribed.png');
+    position: absolute;
+    height: 67px;
+    width: 30px;
+    right: -16px;
+    background-repeat: no-repeat; 
+   }
+
+   .entries-header-option-active{
+     height: 27px;
+     width: 45%;
+     background-color: #2fc1da;
+     margin-top: 15px;
+     margin-left: 3%;
+     position: relative;
+     font-size: 11px;
+     text-align: center;
+     line-height: 27px;
+     color: #ffffff;
+     cursor: pointer;
+      float: left;
+   }
+
+   .entries-header-option-active:before{
+     content: '';
+     position: absolute;
+     height: 27px;
+     width: 20px;
+     background-image: url('../images/tabactive-left.png');
+     background-repeat: no-repeat; 
+     left: 0;
+   }
+   .entries-header-option-active:after{
+    content: '';
+    position: absolute;
+    height: 27px;
+    width: 20px;
+    right: -6px;
+    background-image: url('../images/tabactive-right.png');
+    background-repeat: no-repeat; 
+  }
+
+  .entries-header-option{
+    height: 27px;
+    width: 45%;
+    background-color: #dddddd;
+    margin-top: 15px;
+    margin-left: 3%;
+    position: relative;
+    font-size: 11px;
+    text-align: center;
+    line-height: 27px;
+    color: #000000;
+    cursor: pointer;
+     float: left;
+  }
+
+  .entries-header-option:before{
+    content: '';
+    position: absolute;
+    height: 27px;
+    width: 20px;
+    background-image: url('../images/tabInActive-left.png');
+    background-repeat: no-repeat; 
+    left: 0;
+  }
+  .entries-header-option:after{
+   content: '';
+   position: absolute;
+   height: 27px;
+   width: 20px;
+   right: -9px;
+   background-image: url('../images/tabInActive-right.png');
+   background-repeat: no-repeat; 
+ }
+
+ .entries-header-option:hover{
+  background-color: #74d5e9;
+  color: #ffffff;
+}
+
+.entries-header-option:hover:before{
+  background-image: url('../images/tabhover-left.png'); 
+}
+
+.entries-header-option:hover:after{
+  background-image: url('../images/tabhover-right.png'); 
+}
+
   .entries-header-top{
     font-weight: 100;
     font-size: 13px;
@@ -293,12 +420,16 @@ a{
     height:27px;
   }
   .left_header{
-    float: left;
-    padding-left: 99px;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
   }
   .right_header{
-    float: right;
-    padding-right: 97px;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
   }
   .entries-header-bottom{
     height: 28px;
